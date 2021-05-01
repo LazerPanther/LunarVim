@@ -38,5 +38,7 @@ vim.o.clipboard = "unnamedplus" -- Copy paste between vim and everything else
 -- vim.o.guifont = "Hack\\ Nerd\\ Font\\ Mono"
 -- vim.o.guifont = "SauceCodePro Nerd Font:h17"
 vim.o.guifont = "FiraCode Nerd Font:h17"
-
 -- vim.o.guifont = "JetBrains\\ Mono\\ Regular\\ Nerd\\ Font\\ Complete"
+vim.g.python3_host_prog = vim.fn.expand("$HOME/.pyenv/versions/global/bin/python3")
+vim.g.python_host_prog = vim.fn.expand("$HOME/.pyenv/versions/global/bin/python")
+vim.g.node_host_prog = vim.fn.expand("$HOME/.volta/tools/image/packages/neovim/bin/neovim-node-host")
